@@ -1,0 +1,18 @@
+letsupgrade-clone/
+├── src/
+│   ├── assets/               # Images and other static assets
+│   ├── components/           # Reusable components
+│   │   ├── Navbar.js
+│   │   ├── Footer.js
+│   │   ├── HeroSection.js
+│   │   ├── Card.js
+│   │   ├── Testimonials.js
+│   │   ├── CourseList.js
+│   ├── pages/                # Pages for routing
+│   │   ├── Home.js
+│   │   ├── Courses.js
+│   │   ├── About.js
+│   │   ├── Contact.js
+│   ├── App.js                # Main app component
+│   ├── index.js              # Entry point
+│   ├── App.scss              # Global styles
