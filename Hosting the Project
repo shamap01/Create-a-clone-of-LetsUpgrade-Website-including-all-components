@@ -1,1 +1,3 @@
-After completing the project, I've  host it on platforms like Vercel or Netlify by pushing the code to GitHub and connecting the repository.
+Animations: Use libraries like framer-motion or React Spring.
+Dynamic Data: Fetch courses or testimonials using a mock API like JSONPlaceholder or an actual API.
+Hosting: Deploy on Vercel or Netlify.
