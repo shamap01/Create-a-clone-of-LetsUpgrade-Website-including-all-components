@@ -1,0 +1,25 @@
+import React from 'react';
+import './Testimonials.scss';
+
+const Testimonials = () => {
+    const testimonials = [
+        { name: "John Doe", text: "Amazing platform to learn and grow!" },
+        { name: "Jane Smith", text: "Loved the hands-on projects and guidance." },
+    ];
+
+    return (
+        <section className="testimonials">
+            <h2>What Our Learners Say</h2>
+            <div className="testimonial-cards">
+                {testimonials.map((testimonial, index) => (
+                    <div key={index} className="testimonial-card">
+                        <p>"{testimonial.text}"</p>
+                        <h4>- {testimonial.name}</h4>
+                    </div>
+                ))}
+            </div>
+        </section>
+    );
+};
+
+export default Testimonials;
